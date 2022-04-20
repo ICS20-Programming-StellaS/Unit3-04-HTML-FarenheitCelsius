@@ -17,5 +17,5 @@ function calculate () {
   const celsius = 5/9 * (farenheit - 32)
   
   // display the results
-  document.getElementById('celsius').innerHTML = 'The temperature from farenheit to celsius is: ' + celsius.toFixed(2)
+  document.getElementById('celsius').innerHTML = 'The temperature from farenheit to celsius is: ' + celsius.toFixed(2) + '°C'
 }
